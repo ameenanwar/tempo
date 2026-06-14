@@ -1,0 +1,32 @@
+services:
+  ubuntu:
+    image: ubuntu
+
+    volumes:
+      - friday:/friday
+    
+    command: sleep infinity
+
+    networks:
+      - june
+    container_name: alvarez
+
+  debian:
+    image: debian
+
+    volumes:
+      - friday:/friday
+    
+
+    command: sleep infinity
+
+    networks: 
+      - june
+    
+    container_name: tony
+
+volumes:
+  friday:
+
+networks:
+  june:

@@ -1,0 +1,13 @@
+  Page 1                                    Sun Jan 18 16:53:46 2026
+
+  ******************************************************************
+  *                           E P A N E T                          *
+  *                   Hydraulic and Water Quality                  *
+  *                   Analysis for Pipe Networks                   *
+  *                          Version 2.3.03                        *
+  ******************************************************************
+  
+  Error 205: undefined time pattern 0.6 in [JUNCTIONS] section:
+   J2   0          1.0     0.6
+
+  Error 200: one or more errors in input file

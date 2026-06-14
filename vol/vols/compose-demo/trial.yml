@@ -1,0 +1,15 @@
+services:
+  debian:
+    image: debian
+   
+    volumes:
+      - ameen:/ameen
+
+    container_name: debian_trial
+
+    command:  sleep infinity
+
+
+volumes:
+  ameen:
+    external: true
